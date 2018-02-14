@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
 body {
     text-align: center;
+
+
 }
 
 h1 {
+    display:inline;
     font-family: Monoton;
     font-size: 70px;
-    margin: 0.2em;
+    margin: 1em;
 }
 
 h2 {
@@ -29,13 +34,26 @@ table {
 }
 
 tr {
-    height: 40px;
+  width:4em;
+  height:4em;
+
 }
 
 td {
-    width: 40px;
+    width: 4em;
+    height:4em;
 }
 
 input[type=number] {
     width: 6em;
+}
+
+.well{
+    display:inline;
+    font-size: 80px;
+   font-family: 'Ubuntu Mono', monospace;
+    border:5px solid cyan;
+    border-radius: 15px;
+
+
 }
